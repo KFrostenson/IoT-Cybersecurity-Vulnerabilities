@@ -1,0 +1,618 @@
+.header {
+  height: 900px;
+  width: auto;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 50px;
+}
+
+.headerContent {
+  width: auto;
+  height: 450;
+}
+
+.headerdef {
+  width: auto;
+  height: 475px;
+}
+
+.exp {
+  width: 49%;
+  height: 100%;
+  float: left;
+  font-size: 30px;
+}
+
+.exppic {
+  width: 49%;
+  height: 100%;
+  float: right;
+  border-radius: 25px;
+}
+.title {
+  width: auto;
+  height: 75px;
+  text-align: center;
+}
+
+.titleDesc {
+  height: 175;
+  width: 40%;
+  padding: 5px;
+  float: left;
+  padding-top: none;
+}
+
+.descborder {
+  padding-top: 2%;
+  padding-left: 1%;
+  height: 48%;
+  border-radius: 25px;
+  border: 2px dotted white;
+}
+
+.titleDesc button {
+  border: none;
+  background-color: inherit;
+  font-size: large;
+  height: 35px;
+  width: 100%;
+}
+td {
+  height: 40px;
+  width: 50%;
+}
+.titleExp {
+  height: 162;
+  width: 55%;
+  padding: 5px;
+  float: right;
+  margin-top: 5px;
+  color: white;
+  background-color: #122242;
+  margin-right: 1%;
+  border-radius: 25px;
+}
+
+.functions {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f6f9;
+  border: 1px solid #ccc;
+  border-radius: 25px 25px 25px 25px;
+}
+td:hover {
+  background-color: #9ba4b4;
+}
+
+.header2 {
+  height: 500;
+  width: auto;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 50px;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f6f9;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: large;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #9ba4b4;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #394867;
+  color: #f1f6f9;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 2px solid #ccc;
+  border-radius: 0 0 25px 25px;
+  border-top: none;
+  height: 400;
+  animation: fadeEffect 2s;
+}
+
+.banner {
+  width: 100%;
+  background-color: #9ba4b4;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tabcontentdesc {
+  float: right;
+  width: 49.82%;
+  background-color: white;
+  border-right: 2px solid white;
+  height: 95%;
+  border-radius: 0 25px 25px 0;
+}
+
+.tabcontentpic {
+  float: left;
+  width: 50%;
+  height: 95%;
+}
+
+.tcp {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px 0 0 25px;
+}
+
+.pt {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.header3 {
+  width: auto;
+  height: 1000px;
+  padding-left: 1%;
+}
+
+.columnholder {
+  height: 90%;
+  width: 87%;
+  padding-top: 2%;
+  padding-left: 6%;
+  border-radius: 25px;
+  background-color: inherit;
+  margin-left: 2%;
+}
+.column {
+  width: 29%;
+  height: 48%;
+  float: left;
+  margin-right: 2%;
+  text-align: left;
+  background-color: #14274e;
+  border: 2px solid #f1f6f9;
+  border-radius: 25px;
+}
+
+.vuln_font {
+  color: #f1f6f9;
+  font-size: 17px;
+  padding-left: 4px;
+  padding-right: 2px;
+}
+.column_pic {
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+}
+
+.header4 {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 900;
+}
+
+.caseStudies {
+  width: auto;
+  height: auto;
+}
+
+.Mirai {
+  height: 40%;
+  width: 32.5%;
+  background-color: #f1f6f9;
+  float: left;
+  border-radius: 25px;
+  margin-right: 1%;
+  transition: transform 0.3s;
+}
+.Mbox {
+  width: 100%;
+  height: 20%;
+  border-radius: 25px 25px 0 0;
+  background-color: #febbcc;
+}
+
+.Mirai img {
+  width: 100%;
+  height: 80%;
+  border-radius: 0 0 25px 25px;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.Mbox .text-boxs {
+  color: #f1f6f9;
+  position: absolute;
+  font-size: xx-large;
+  font-weight: 300;
+  transform: translate(80%, 0);
+}
+
+.cont {
+  height: 40%;
+  width: 32.5%;
+  float: left;
+  margin-right: 1%;
+}
+.smartBulbs {
+  height: 48.5%;
+  width: 48.5%;
+  float: left;
+  border-radius: 25px;
+  background-color: #f1f6f9;
+  transition: transform 0.3s;
+}
+
+.faxploit {
+  height: 48.5%;
+  width: 48.5%;
+  float: right;
+  border-radius: 25px;
+  background-color: #f1f6f9;
+  transition: transform 0.3s;
+}
+
+.text-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* Initially hidden */
+  background-color: #ffeecc;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 25px;
+  transition: opacity 0.3s; /* Transition for smooth fade effect */
+}
+.stJudes {
+  height: 48.5%;
+  width: 100%;
+  float: left;
+  border-radius: 25px;
+  margin-top: 3%;
+  background-color: #f1f6f9;
+  transition: transform 0.3s;
+}
+
+.text-boxr {
+  position: absolute;
+  opacity: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+.texts {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.stJudes:hover .text-boxr {
+  width: 100%;
+  opacity: 1;
+}
+.verkanda {
+  height: 40%;
+  width: 32.5%;
+  float: left;
+  border-radius: 25px;
+  background-color: #f1f6f9;
+  transition: transform 0.3s;
+}
+.verkanda .headi {
+  width: 100%;
+  height: 10%;
+  margin-top: 1%;
+  background-color: #008cba;
+}
+
+.verkanda .text-boxr {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  background-color: #beadfa;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+  transition: 0.5s ease;
+}
+.verkanda .texts {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.verkanda:hover .text-boxr {
+  height: 100%;
+  opacity: 1;
+}
+.conti {
+  height: 60%;
+  width: 49.5%;
+  float: left;
+  margin-top: 1%;
+}
+.IOTPumps {
+  height: 32.5%;
+  width: 32.5%;
+  float: left;
+  border-radius: 25px;
+  margin-right: 2%;
+  background-color: #f1f6f9;
+  transition: transform 0.3s;
+}
+
+.trendNet {
+  height: 32.6%;
+  width: 65%;
+  float: left;
+  border-radius: 25px;
+  background-color: white;
+  transition: transform 0.3s;
+}
+.trendNet .text-boxr {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  background-color: #beadfa;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+  transition: 0.5s ease;
+}
+.trendNet .texts {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.trendNet:hover .text-boxr {
+  height: 100%;
+  opacity: 1;
+}
+.NewJeep {
+  height: 65%;
+  width: 65%;
+  float: left;
+  border-radius: 25px;
+  margin-top: 2%;
+  margin-right: 2%;
+  background-color: #f1f6f9;
+  transition: transform 0.3s;
+}
+.NewJeep img {
+  width: 100%;
+  height: 80%;
+  border-radius: 0 0 25px 25px;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.NewJeep .text-boxs {
+  color: #f1f6f9;
+  position: absolute;
+  font-size: xx-large;
+  font-weight: 300;
+  transform: translate(50%, 0);
+}
+.smartPhone {
+  height: 65%;
+  width: 32.5%;
+  float: left;
+  border-radius: 25px;
+  margin-top: 2%;
+  background-color: #f1f6f9;
+  transition: transform 0.3s;
+}
+.smartPhone .text-boxr {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+  transition: 0.5s ease;
+}
+.smartPhone .texts {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.smartPhone:hover .text-boxr {
+  height: 100%;
+  opacity: 1;
+}
+.contin {
+  height: 60%;
+  width: 49.5%;
+  float: left;
+  margin-left: 0.75%;
+  margin-top: 1%;
+}
+.Stuxnet {
+  height: 65%;
+  width: 65%;
+  float: left;
+  border-radius: 25px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  background-color: #f1f6f9;
+  transition: transform 0.3s;
+}
+.Stuxnet .text-boxs {
+  color: #f1f6f9;
+  position: absolute;
+  font-size: xx-large;
+  font-weight: 300;
+  transform: translate(145%, 0);
+}
+.Stuxnet img {
+  width: 100%;
+  height: 80%;
+  border-radius: 0 0 25px 25px;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.fishcas {
+  height: 65%;
+  width: 32.5%;
+  float: left;
+  margin-bottom: 2%;
+  border-radius: 25px;
+  background-color: white;
+  transition: transform 0.3s;
+}
+.fishcas .text-boxr {
+  position: absolute;
+  opacity: 0;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.fishcas .texts {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.fishcas:hover .text-boxr {
+  bottom: 0;
+  height: 100%;
+  opacity: 1;
+}
+.printers {
+  height: 32.5%;
+  width: 32.5%;
+  float: left;
+  border-radius: 25px;
+  margin-right: 2%;
+  background-color: #f1f6f9;
+  transition: transform 0.3s;
+}
+
+.MaraiVarients {
+  height: 32.5%;
+  width: 65%;
+  float: right;
+  background-color: #f1f6f9;
+  border-radius: 25px;
+  transition: transform 0.3s;
+}
+.MaraiVarients:hover .text-boxr {
+  width: 100%;
+  opacity: 1;
+}
+.smallimg {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  opacity: 1;
+  transition: opacity 0.3s;
+  display: block;
+}
+
+.smartBulbs:hover .text-box {
+  opacity: 1;
+}
+.buttons:hover {
+  transform: scale(0.95);
+}
+.faxploit:hover .text-box {
+  opacity: 1;
+}
+.IOTPumps:hover .text-box {
+  opacity: 1;
+}
+.printers:hover .text-box {
+  opacity: 1;
+}
+
+.end {
+  margin-top: 1000px;
+  width: auto;
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}

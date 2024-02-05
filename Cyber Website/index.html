@@ -1,0 +1,223 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css"  />
+    <script src="index.js"></script>
+</head>
+<body style="background-color:#394867">
+    <div class="header">
+        <div class="title"><h1 style="color:#F1F6F9;">Consumer IoT Cybersecurity</h1><hr></div>
+        <div class="headerContent">
+            <div class="headerdef">
+            <div class="exp"><p style="color:#F1F6F9;">The Internet of Things (IoT) is a concept that refers to the <b style="color:#FFEECC;">interconnection of everyday objects and devices to the internet</b>, enabling them to <b style="color:#FFEECC;">collect</b>, <b style="color:#FFEECC;">exchange</b>, and <b style="color:#FFEECC;">process</b> data without the need for human intervention. IoT involves connecting "things" to the internet to make them smart and capable of communicating with other devices or systems. The number of connected IoT devices is expected to grow to ~30 billion by 2030.</p></div>
+            <div class="exppic"><img src="IoT-analytics.jpg" style="width:100%;height:75%;border-radius:25px;margin-top:10%;"></div>
+            </div>
+            <div class="title" style="height:50px;"><h1 style="color:#F1F6F9;">Characteristics of IoT Devices</h1></div>
+            <div class="descborder">
+                <div class="titleDesc">
+                    <table class="functions">
+                        <tr style="border-bottom:1px solid #ccc;">
+                            <td style="border-right:1px solid #ccc;border-radius: 25px 0 0 0;"><button style="border-radius:25px 0 0 0;"onclick="displayCon()">Connectivity</button></td>
+                            <td style="border-radius: 0 25px 0 0;"><button style="border-radius:0 25px 0 0;" onclick="displayDat()">Data Collection</button></td>
+                        </tr>
+                        <tr>
+                            <td style="border-right:1px solid #ccc;"><button onclick="displayDatp()">Data Processing</button></td>
+                            <td><button onclick="displayAut()">Automation and Control</button></td>
+                        </tr>
+                        <tr>
+                            <td style="border-right:1px solid #ccc;border-radius: 0 0 0 25px;"><button style="border-radius:0 0 0 25px;" onclick="displayInt()">Interoperability</button></td>
+                            <td style="border-radius: 0 0 25px 0;"><button style="border-radius:0 0 25px 0;"onclick="displaySca()">Scalability</button></td>
+                        </tr>
+                    </table>
+                    <script>
+                        function displayCon() {
+                        document.getElementById("demo").innerHTML = "<center><b>Connectivity</b></center><hr>IoT devices are connected to the internet, either through Wi-Fi, Bluetooth, cellular networks, or other communication protocols. This enables seamless data exchange between devices and the cloud.";
+                        }
+                    </script>
+                    <script>
+                        function displayDat() {
+                        document.getElementById("demo").innerHTML = "<center><b>Data Collection</b></center><hr>IoT devices are equipped with sensors that collect various types of data, such as temperature, humidity, location, movement, or user interactions.";
+                        }
+                    </script>
+                    <script>
+                        function displayDatp() {
+                        document.getElementById("demo").innerHTML = "<center><b>Data Processing</b></center><hr>IoT devices can process and analyze the collected data locally on the device or transmit it to cloud-based platforms for more complex analysis and decision-making.";
+                        }
+                    </script>
+                    <script>
+                        function displayAut() {
+                        document.getElementById("demo").innerHTML = "<center><b>Automation and Control</b></center><hr>The data gathered by IoT devices can be used to trigger actions, automate processes, or control other connected devices, improving efficiency and convenience.";
+                        }
+                    </script>
+                    <script>
+                        function displayInt() {
+                        document.getElementById("demo").innerHTML = "<center><b>Interoperability</b></center><hr>IoT devices often use standardized communication protocols to ensure compatibility and seamless integration with other devices and systems.";
+                        }
+                    </script>
+                    <script>
+                        function displaySca() {
+                        document.getElementById("demo").innerHTML = "<center><b>Scalability</b></center><hr>IoT systems are designed to be scalable, meaning they can handle a large number of connected devices and accommodate expanding networks without a significant decrease in performance. As the number of IoT devices grows, the underlying infrastructure must be capable of handling increased data traffic, processing demands, and communication between devices.";
+                        }
+                    </script>
+                </div>
+            <div class="titleExp">
+                <p id="demo" style="font-size:large;text-align:center;">Click through the buttons on the left to see more information</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="header2">
+        <div class="title" style="height:50px;"><h1 style="color:#F1F6F9;">Categorized Consumer IoT Devices</h1></div>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Medical IoT')" id="default">Medical IoT</button>
+            <button class="tablinks" onclick="openCity(event, 'Wearables')">Wearables</button>
+            <button class="tablinks" onclick="openCity(event, 'Home Accessories')">Home Accessories</button>
+            <button class="tablinks" onclick="openCity(event, 'Automotive')">Automotive</button>
+            <button class="tablinks" onclick="openCity(event, 'Toys')">Toys</button>
+        </div>
+          
+          <!-- Tab content -->
+          <div id="Medical IoT" class="tabcontent">
+              <div class="tabcontentdesc">
+                <div class="banner" style="background-color:#5ce1e6;"><h2><center>Medical IoT</center></h2></div>
+                <p class="pt">Medical IoT (Internet of Things) refers to the integration of Internet of Things technology into the healthcare and medical field. It involves connecting medical devices, sensors, wearables, and other healthcare-related assets to a network to collect, exchange, and analyze data in real-time. The main goal of medical IoT is to improve patient care, enhance operational efficiency, and enable better decision-making in healthcare settings.</p>
+                <p style="margin-left:2%;"><b>Examples of IoT Medical Device functions:</b></p>
+                <ul>
+                    <li>Remote Patient Monitoring</li>
+                    <li>Smart Medical Devices - smart infusion pumps, smart inhalers</li>
+                    <li>Healthcare Asset Tracking</li>
+                    <li>Data Analytics and Predictive Insights</li>
+                    <li>Telemedicine and Virtual Care</li>
+                </ul>
+              </div>
+              <div class="tabcontentpic">
+                <img src="medical.jpeg" class="tcp">
+              </div>
+          </div>
+          
+          <div id="Wearables" class="tabcontent">
+            <div class="tabcontentdesc">
+                <div class="banner" style="background-color:#7ed957;"><h2><center>Wearables</center></h2></div>
+                <p class="pt">Wearable IoT devices, often referred to as "wearables," are electronic devices equipped with sensors and connectivity capabilities that can be worn on the body. These devices are designed to collect data, interact with other devices or systems, and provide valuable insights to users. Wearable IoT devices have gained significant popularity in recent years due to their ability to enhance various aspects of daily life, health, and fitness.</p>
+                <p style="margin-left:2%;"><b>Examples of wearable IoT devices include:</b></p>
+                <ul>
+                    <li>Smart Watches</li>
+                    <li>Fitness Trackers</li>
+                    <li>Smart Glasses</li>
+                    <li>Health Monitoring Devices</li>
+                    <li>Smart Jewelry</li>
+                    <li>Biometric Wearables</li>
+                </ul>
+            </div>
+            <div class="tabcontentpic">
+                <img src="IOTde.jpeg" class="tcp">
+            </div>
+            </div>
+          
+          <div id="Home Accessories" class="tabcontent">
+            <div class="tabcontentdesc">
+                <div class="banner" style="background-color:#ffde59;"><h2><center>Home Accessories</center></h2></div>
+                <p class="pt">Smart home accessories are internet-connected devices designed to automate and enhance various functions within a household. They use Internet of Things technology to communicate with each other, the homeowner, or a central hub, allowing users to control and monitor their home remotely through mobile apps or voice commands. Smart home devices aim to improve convenience, energy efficiency, security, and overall comfort in the home environment.</p>
+                <p style="margin-left:2%;"><b>Examples of smart home accessories include:</b></p>
+                <ul>
+                    <li>Smart Speakers and Voice Assistants</li>
+                    <li>Smart Lighting</li>
+                    <li>Smart Thermostat</li>
+                    <li>Smart Security Systems</li>
+                    <li>Smart Applicances</li>
+                    <li>Smart Entertainment Systems</li>
+                </ul>
+            </div>
+            <div class="tabcontentpic">
+                <img src="homei.jpg" class="tcp">
+            </div>
+          </div>
+          
+          <div id="Automotive" class="tabcontent">
+            <div class="tabcontentdesc">
+                <div class="banner" style="background-color:#ff5757;"><h2><center>Automotive</center></h2></div>
+                <p class="pt">Automotive IoT refers to the integration of IoT technology into the automotive industry. It involves connecting vehicles, smart devices, and infrastructure to create an interconnected ecosystem that enables advanced features, data exchange, and enhanced driving experiences. Automotive IoT aims to improve safety, efficiency, and convenience for drivers and passengers while also paving the way for future developments in autonomous and connected vehicles.</p>
+                <p style="margin-left:2%;"><b>Examples of automative IoT functions:</b></p>
+                <ul>
+                    <li>Connected Cars</li>
+                    <li>Vehicle-to-Vehicle (V2V) and Vehicle-to-Infrastructure (V2I) Communication</li>
+                    <li>Over-the-Air (OTA) Updates</li>
+                    <li>Autonomous Vehicles</li>
+                    <li>In-Car Entertainment and Connectivity</li>
+                </ul>
+            </div>
+            <div class="tabcontentpic">
+                <img src="connectedcar.png" class="tcp">
+            </div>
+          </div>
+          
+          <div id="Toys" class="tabcontent">
+            <div class="tabcontentdesc">
+                <div class="banner" style="background-color:#ff8457;"><h2><center>Toys</center></h2></div>
+                <p class="pt">Children's toy IoT devices are internet-connected toys that incorporate Internet of Things (IoT) technology to offer interactive and enhanced play experiences for kids. These toys use sensors, connectivity, and sometimes artificial intelligence to interact with children, respond to their actions, and provide personalized and engaging play sessions. Children's toy IoT devices aim to entertain, educate, and stimulate children's imagination and creativity.</p>
+                <p style="margin-left:2%;"><b>Examples of toy IoT devices and functions:</b></p>
+                <ul>
+                    <li>Smart Interactive Toys</li>
+                    <li>Connected Learning Toys</li>
+                    <li>IoT-Connected Robots</li>
+                    <li>Smart Plush Toys</li>
+                    <li>IoT Gaming Toys</li>
+                    <li>IoT-Connected Cars and Drones</li>
+                    <li>Wearable IoT Toys</li>
+                </ul>
+            </div>
+            <div class="tabcontentpic">
+                <img src="toys.png" class="tcp">
+            </div>
+         </div>
+    </div>
+    <div class="header3">
+        <h1 style="text-align:center;color:#F1F6F9;">Common Vulnerabilities in IoT Devices</h1>
+        <div class="columnholder">
+        <div class="column"><img src="HardCP.png" class="column_pic"><p class="vuln_font"><b>Hardcoded passwords </b>are typically set by the manufacturer during the device's production and are often difficult or impossible for users to change. The device remains vulnerable to anyone who knows the default password. <br><br><b>Default passwords </b>are often documented in user manuals, online resources, or even on the device itself. This widespread knowledge makes it easier for attackers to find the passwords and use them to compromise the device.</p></div>
+        <div class="column"><img src="WeakA.png" class="column_pic"><p class="vuln_font">Many IoT devices come with <b>default usernames and passwords</b> that are often not changed by users, making them susceptible to brute-force attacks or unauthorized access. <br><br><b>Weak authentication</b> often involves using common passwords that are easily guessed or found in password lists. Examples include "123456," "password," or "admin."</p></div>
+        <div class="column"><img src="LackOP.png" class="column_pic"><p class="vuln_font">IoT devices often collect and process personal and sensitive data, making privacy protection a critical concern. When privacy measures are inadequate, it can lead to various negative consequences for both users and the broader ecosystem, including breaches of privacy and security.</p></div>
+        <div class="column" style="margin-top:2%;"><img src="LackE.png" class="column_pic"><p class="vuln_font">The <b>lack of encryption</b> in IoT devices poses a serious security risk, as it can lead to unauthorized access, data breaches, and the compromise of sensitive information. <br><br>Encryption is a fundamental security measure that transforms data into a secure, unreadable format, ensuring that even if data is intercepted, it remains confidential and cannot be easily understood.</p></div>
+        <div class="column" style="margin-top:2%;"><img src="InsecureD.png" class="column_pic"><p class="vuln_font"><b>Insecure data storage</b> in IoT devices refers to the practice of inadequately protecting sensitive information that is collected, processed, or stored within these devices. IoT devices often gather various types of data, including personal information, user preferences, device configurations, and more. If data storage practices are insecure, it can lead to unauthorized access, data breaches, and compromised privacy.</p></div>
+        <div class="column" style="margin-top:2%;"><img src="InadSU.png" class="column_pic"><p class="vuln_font"><b>Inadequate software updates</b> in IoT devices represent a significant vulnerability that can expose devices and their users to various security risks. Software updates, often referred to as patches or firmware updates, are essential for addressing security vulnerabilities, fixing bugs, improving functionality, and ensuring that devices remain resilient to emerging threats. </p></div>
+        </div>
+    </div>
+    <div class="header4">
+        <h1 style="text-align:center;color:#F1F6F9;">IoT Breach Case Studies (Consumer and Infrastructure IoT)</h1>
+        <div class="caseStudies">
+            <a href="https://blog.cloudflare.com/inside-mirai-the-infamous-iot-botnet-a-retrospective-analysis/#toc-2">
+                <div class="Mirai buttons"><div class="Mbox"><div class="text-boxs"><p>Mirai Botnet</p></div></div><img src="botnet.png"></div>
+            </a>
+            <div class="cont">
+                <a href="https://gulfnews.com/technology/smart-light-bulbs-can-hack-your-personal-information-1.1571846229201">
+                <div class="smartBulbs buttons"><img src="https://img.freepik.com/premium-vector/light-bulb-with-rays-lighting-electric-lamp-creative-idea-solution-thinking-concept_435184-915.jpg" class="smallimg"><div class="text-box"><p class="text">Smart Bulb Exploit</p></div></div></a>
+                <a href="https://www.checkpoint.com/press-releases/faxploit-new-check-point-research-reveals-criminals-can-target-company-private-fax-machines-take-networks-spread-malware/">
+                <div class="faxploit buttons"><img src="faxploit.png" class="smallimg"><div class="text-box" style="background-color:#f73478;"><p class="text" style="color:white;text-align:center;">Fax Machine Exploits</p></div></div></a>
+                <a href="https://money.cnn.com/2017/01/09/technology/fda-st-jude-cardiac-hack/#:~:text=The%20FDA%20confirmed%20that%20St,the%20FDA%20said%20on%20Monday">
+                <div class="stJudes buttons"><img src="healthcare.png" class="smallimg"><div class="text-boxr"><div class="texts">St Judes Cardiac <br>Device Vulnerabilities</div></div></div></a>
+            </div>
+            <a href="https://www.verkada.com/security-update/report/">
+            <div class="Verkanda buttons"><img src="securitycam.jpeg" class="smallimg"><div class="text-boxr"><div class="texts">Verkanda Security Camera Hack</div></div></div></a>
+            <div class='conti'>
+                <a href="https://documents.trendmicro.com/assets/white_papers/wp-the-internet-of-things-in-the-cybercrime-underground.pdf">
+                <div class="IOTPumps buttons"><img src="Gas.jpg" class="smallimg"><div class="text-box" style="background-color:#241468;"><p class="text" style="color:white;text-align:center;">IoT Gas Pumps</p></div></div></a>
+                <a href="https://www.diva-portal.org/smash/get/diva2:1409755/fulltext01.pdf">
+                <div class="trendNet buttons"><img src="trend.jpg" class="smallimg" style="width:45%;float:left;margin-left:4%;margin-right:1%;"><img src="trend1.jpg" style="float:left;width:45%;height:100%"><div class="text-boxr" style="background-color:#A3DE83;"><div class="texts">TrendNET Security Camera Hack</div></div></div></a>
+                <a href="https://usa.kaspersky.com/blog/blackhat-jeep-cherokee-hack-explained/5749/">
+                <div class="NewJeep buttons"><div class="Mbox" style="background-color:#DD4A48;"><div class="text-boxs"><p>New Jeep Hack</p></div></div><img src="jeep.png"></div></a>
+                <a href="https://www.komando.com/security-privacy/beware-theres-a-clever-new-way-hackers-can-break-into-your-phone/571768/">
+                <div class="smartPhone buttons"><img src="audio.jpg" class="smallimg"><div class="text-boxr" style="background-color:#974EC3;"><div class="texts">Smart Phone <br>Microphone Hack</div></div></div></a>
+            </div>
+            <div class="contin">
+                <a href="https://www.csoonline.com/article/562691/stuxnet-explained-the-first-known-cyberweapon.html">
+                <div class="StuxNet buttons"><div class="Mbox" style="background-color:#45CFDD;"><div class="text-boxs"><p>Stuxnet</p></div></div><img src="worm.jpg"></div></a>
+                <a href="https://www.entrepreneur.com/business-news/a-casino-gets-hacked-through-a-fish-tank-thermometer/368943">
+                <div class="fishcas buttons"><img src="thermometer.jpg" class="smallimg" style="height:70%;margin-top:15%;"><div class="text-boxr" style="background-color:#900C3F;"><div class="texts">Casino Hacked <br>Through an IOT <br>Fish Tank <br>Thermometer</div></div></div></a>
+                <a href="https://www.brother.eu/-/media/pdf/buk/white-papers-and-infographics/quocirca-print-security-2019.pdf?la=en&rev=03bb8ef92fb44bbb8084278a54eaef2b&hash=FB26242D60CF5FAAADE325F484A18B0C44BFEF80">
+                <div class="printers buttons"><img src="print.jpg" class="smallimg"><div class="text-box" style="background-color:#FFC436;"><p class="text" style="color:white;text-align:center;">Printer Exploit</p></div></div></a>
+                <a href="https://cybersecurity.att.com/blogs/labs-research/malware-hosting-domain-cyberium-fanning-out-mirai-variants">
+                <div class="MaraiVarients buttons"><img src="Varients.png" class="smallimg"><div class="text-boxr" style="background-color:FF7844;"><div class="texts">Marai Botnet Variants</div></div></div></a>
+            </div>
+        </div>
+        <div class="end"><p>The 2023 Cyber12</p></div>
+    </div>
+</body>
+    
